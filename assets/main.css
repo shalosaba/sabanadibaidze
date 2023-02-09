@@ -1,0 +1,104 @@
+@import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+}
+span {
+  color: red;
+}
+form {
+  width: 500px;
+  height: 500px;
+  box-shadow: 5px 5px 17px 5px rgba(0, 0, 0, 0.69);
+  margin: auto;
+  margin-top: 230px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+input {
+  display: block;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid blue;
+  outline: none;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+.or {
+  width: 45px;
+  height: 45px;
+  background-color: #e0dcd9;
+  border-radius: 50%;
+  position: absolute;
+  left: 222px;
+  top: 250px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.left_section {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding: 40px;
+}
+.left_section button {
+  background-color: green;
+  border: none;
+  display: block;
+  padding: 10px 0;
+  width: 170px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+.right_section {
+  width: 50%;
+  height: 100%;
+  background-image: url(../assets/image/wp4088639.jpg);
+  float: left;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.right_section h2 {
+  padding: 40px 20px 0 20px;
+}
+.social_reg_box {
+  margin-top: 80px;
+}
+.social_reg_box button {
+  display: block;
+  margin: 25px;
+  padding: 10px 0;
+  width: 200px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.social_reg_box button:first-child {
+  background-color: var(--blue);
+}
+.social_reg_box button:nth-child(2) {
+  background-color: var(--lblue);
+}
+.social_reg_box button:last-child {
+  background-color: var(--orange);
+}
